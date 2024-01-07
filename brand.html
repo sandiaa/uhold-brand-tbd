@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .centered-content {
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <div class="centered-content">
+        <p>Assume, you are in the signup page of a brand and clicking the button below will sign you up with Uhold</p>
+        <button onclick="redirectToUrl()">Sign up via UHold</button>
+    </div>
+
+    <script>
+        function redirectToUrl() {
+            window.location.href = "https://uhold-tbd.vercel.app/brandLogin?did=did:ion:EiAbandrgHi_25Glx2j7KkGpZ4cx_529ylfl0w-ZpCuQYw:eyJkZWx0YSI6eyJwYXRjaGVzIjpbeyJhY3Rpb24iOiJyZXBsYWNlIiwiZG9jdW1lbnQiOnsicHVibGljS2V5cyI6W3siaWQiOiJkd24tc2lnIiwicHVibGljS2V5SndrIjp7ImNydiI6IkVkMjU1MTkiLCJrdHkiOiJPS1AiLCJ4IjoiUEVReE1Wd3BlTldlN3drUmN3UVBxTDd6aWNtUVJ5VnctbjNjM29NS1U3byJ9LCJwdXJwb3NlcyI6WyJhdXRoZW50aWNhdGlvbiJdLCJ0eXBlIjoiSnNvbldlYktleTIwMjAifSx7ImlkIjoiZHduLWVuYyIsInB1YmxpY0tleUp3ayI6eyJjcnYiOiJzZWNwMjU2azEiLCJrdHkiOiJFQyIsIngiOiJjUDN5TXJ6bFVRdllPNnEzVUFfZ1lWU1ZVdVFWSlV1MlhfaF9nclVUTzdFIiwieSI6IlJFWlQxbV9wdTdHUWgwbDlTRHRya2pkYnBSSm9YdmlqMHVPRTNId0hfODAifSwicHVycG9zZXMiOlsia2V5QWdyZWVtZW50Il0sInR5cGUiOiJKc29uV2ViS2V5MjAyMCJ9XSwic2VydmljZXMiOlt7ImlkIjoiZHduIiwic2VydmljZUVuZHBvaW50Ijp7ImVuY3J5cHRpb25LZXlzIjpbIiNkd24tZW5jIl0sIm5vZGVzIjpbImh0dHBzOi8vZHduLnRiZGRldi5vcmcvZHduNCIsImh0dHBzOi8vZHduLnRiZGRldi5vcmcvZHduMiJdLCJzaWduaW5nS2V5cyI6WyIjZHduLXNpZyJdfSwidHlwZSI6IkRlY2VudHJhbGl6ZWRXZWJOb2RlIn1dfX1dLCJ1cGRhdGVDb21taXRtZW50IjoiRWlCVF9Bc1lIc2JhMkFXdG9MRElEZ04wZE5UWFdlbVF0VG5uRHEzQ2V2R2tuQSJ9LCJzdWZmaXhEYXRhIjp7ImRlbHRhSGFzaCI6IkVpQVd2WUhxamtGNGlVUXpsZVYyMDZCX2tNM0hjV2dfczFKdmxhOFhaQkhJdXciLCJyZWNvdmVyeUNvbW1pdG1lbnQiOiJFaURrRWd4V25mV1FQMFdvZ0tXMUVodHJJekNiaFZfTlBWMENYY3hxMElzTEh3In19&id=bafyreie7j6m5qoeoisjrcli6p7y3zy77jeodeawa3kxzs62xxvevskxely"; // Replace with your desired URL
+        }
+    </script>
+</body>
+</html>
